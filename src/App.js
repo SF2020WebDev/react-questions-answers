@@ -5,6 +5,7 @@ import PageTitle from './components/pageTitle.js';
 import HelloKitty from './components/helloKitty.js'
 import Person from './components/person.js'
 import PersonTemplate from './components/personTemplate.js'
+import Adder from './components/adder.js'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <PageTitle />
           <HelloKitty />
           <PersonTemplate name={'John', 'Richard'} age={20, 27} />
+          <Adder number1={1} number2={2} />
           <a
           className="App-link"
           href="https://reactjs.org"
